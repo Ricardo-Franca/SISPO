@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#pages#cliente#atualizaCliente.jsp"
+  PATH="/pages/cliente/atualizaCliente.jsp" SHAPE="240,577,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#atualizaCliente.jsp:0"
+   NAME="item" PATH="/pages/cliente/atualizaCliente.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeCliente::#pages#cliente#homeCliente.jsp" NAME="output"
+    PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="toHomeCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#atualizaCadastroCliente.jsp"
+  PATH="/pages/cliente/atualizaCadastroCliente.jsp" SHAPE="96,865,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#atualizaCadastroCliente.jsp:0"
+   NAME="item" PATH="/pages/cliente/atualizaCadastroCliente.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeCliente::#pages#cliente#homeCliente.jsp" NAME="output"
+    PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="toHomeCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#atualizaCadastroEmpresa.jsp"
+  PATH="/pages/empresa/atualizaCadastroEmpresa.jsp"
+  SHAPE="392,1704,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#atualizaCadastroEmpresa.jsp:0"
+   NAME="item" PATH="/pages/empresa/atualizaCadastroEmpresa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#homeCliente.jsp"
+  PATH="/pages/cliente/homeCliente.jsp" SHAPE="32,673,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#homeCliente.jsp:0" NAME="item"
+   PATH="/pages/cliente/homeCliente.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toAtualizaCadastroCliente::#pages#cliente#atualizaCadastroCliente.jsp"
+    NAME="output1" PATH="/pages/cliente/atualizaCadastroCliente.jsp"
+    TARGET="rules:#pages#cliente#atualizaCadastroCliente.jsp"
+    TITLE="toAtualizaCadastroCliente" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toAlterarSenha::#pages#cliente#alterarSenha.jsp" NAME="output2"
+    PATH="/pages/cliente/alterarSenha.jsp"
+    TARGET="rules:#pages#cliente#alterarSenha.jsp"
+    TITLE="toAlterarSenha" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultarPizzaria::#pages#cliente#consultarPizzaria.jsp"
+    NAME="output3" PATH="/pages/cliente/consultarPizzaria.jsp"
+    TARGET="rules:#pages#cliente#consultarPizzaria.jsp"
+    TITLE="toConsultarPizzaria" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPedido::#pages#cliente#consultaPedido.jsp"
+    NAME="output" PATH="/pages/cliente/consultaPedido.jsp"
+    TARGET="rules:#pages#cliente#consultaPedido.jsp"
+    TITLE="toConsultaPedido" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#cliente#homeCliente.jsp:1" NAME="item1"
+   PATH="/pages/cliente/homeCliente.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toFaleConoscoCliente::#pages#cliente#faleConoscoCliente.jsp"
+    NAME="output" PATH="/pages/cliente/faleConoscoCliente.jsp"
+    TARGET="rules:#pages#cliente#faleConoscoCliente.jsp"
+    TITLE="toFaleConoscoCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#pizzas.jsp"
+  PATH="/pages/cliente/pizzas.jsp" SHAPE="64,961,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#pizzas.jsp:0" NAME="item"
+   PATH="/pages/cliente/pizzas.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeCliente::#pages#cliente#homeCliente.jsp" NAME="output"
+    PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="toHomeCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#administrador#homeAdministrador.jsp"
+  PATH="/pages/administrador/homeAdministrador.jsp" SHAPE="272,1089,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#administrador#homeAdministrador.jsp:0"
+   NAME="item" PATH="/pages/administrador/homeAdministrador.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toRemoveCliente::#pages#administrador#removeCliente.jsp"
+    NAME="output" PATH="/pages/administrador/removeCliente.jsp"
+    TARGET="rules:#pages#administrador#removeCliente.jsp"
+    TITLE="toRemoveCliente" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toRemoveEmpresa::#pages#administrador#removeEmpresa.jsp"
+    NAME="output1" PATH="/pages/administrador/removeEmpresa.jsp"
+    TARGET="rules:#pages#administrador#removeEmpresa.jsp"
+    TITLE="toRemoveEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#homeEmpresa.jsp"
+  PATH="/pages/empresa/homeEmpresa.jsp" SHAPE="632,1632,50,105" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#homeEmpresa.jsp:0" NAME="item"
+   PATH="/pages/empresa/homeEmpresa.jsp" SHAPE="456,1774,47,15" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toAtualizaCadastroEmpresa::#pages#empresa#atualizaCadastroEmpresa.jsp"
+    NAME="output" PATH="/pages/empresa/atualizaCadastroEmpresa.jsp"
+    TARGET="rules:#pages#empresa#atualizaCadastroEmpresa.jsp"
+    TITLE="toAtualizaCadastroEmpresa" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toAlterarSenha::#pages#empresa#alterarSenha.jsp" NAME="output1"
+    PATH="/pages/empresa/alterarSenha.jsp"
+    TARGET="rules:#pages#empresa#alterarSenha.jsp"
+    TITLE="toAlterarSenha" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toCadastraPizzas::#pages#empresa#cadastraPizzas.jsp"
+    NAME="output2" PATH="/pages/empresa/cadastraPizzas.jsp"
+    TARGET="rules:#pages#empresa#cadastraPizzas.jsp"
+    TITLE="toCadastraPizzas" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPizzas::#pages#empresa#consultaPizzas.jsp"
+    NAME="output3" PATH="/pages/empresa/consultaPizzas.jsp"
+    TARGET="rules:#pages#empresa#consultaPizzas.jsp"
+    TITLE="toConsultaPizzas" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPedido::#pages#empresa#consultaPedido.jsp"
+    NAME="output4" PATH="/pages/empresa/consultaPedido.jsp"
+    TARGET="rules:#pages#empresa#consultaPedido.jsp"
+    TITLE="toConsultaPedido" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#empresa#homeEmpresa.jsp:1" NAME="item1"
+   PATH="/pages/empresa/homeEmpresa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toGerarRelatorio::#pages#empresa#gerarRelatorio.jsp"
+    NAME="output" PATH="/pages/empresa/gerarRelatorio.jsp"
+    TARGET="rules:#pages#empresa#gerarRelatorio.jsp"
+    TITLE="toGerarRelatorio" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#empresa#homeEmpresa.jsp:2" NAME="item2"
+   PATH="/pages/empresa/homeEmpresa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toFaleConoscoEmpresa::#pages#empresa#faleConoscoEmpresa.jsp"
+    NAME="output" PATH="/pages/empresa/faleConoscoEmpresa.jsp"
+    TARGET="rules:#pages#empresa#faleConoscoEmpresa.jsp"
+    TITLE="toFaleConoscoEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#atualizaEmpresa.jsp"
+  PATH="/pages/empresa/atualizaEmpresa.jsp" SHAPE="440,1576,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#atualizaEmpresa.jsp:0"
+   NAME="item" PATH="/pages/empresa/atualizaEmpresa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#alterarSenha.jsp"
+  PATH="/pages/empresa/alterarSenha.jsp" SHAPE="312,1864,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#alterarSenha.jsp:0" NAME="item"
+   PATH="/pages/empresa/alterarSenha.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#novoUsuario#cadastraPizzaria.jsp"
+  PATH="/pages/novoUsuario/cadastraPizzaria.jsp" SHAPE="32,225,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#novoUsuario#cadastraPizzaria.jsp:0"
+   NAME="item" PATH="/pages/novoUsuario/cadastraPizzaria.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toEscolheUsuario::#pages#novoUsuario#tipoUsuario.jsp"
+    NAME="output" PATH="/pages/novoUsuario/tipoUsuario.jsp"
+    TARGET="rules:#pages#novoUsuario#tipoUsuario.jsp"
+    TITLE="toEscolheUsuario" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#novoUsuario#cadastraCliente.jsp"
+  PATH="/pages/novoUsuario/cadastraCliente.jsp" SHAPE="32,561,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#novoUsuario#cadastraCliente.jsp:0"
+   NAME="item" PATH="/pages/novoUsuario/cadastraCliente.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toEscolheUsuario::#pages#novoUsuario#tipoUsuario.jsp"
+    NAME="output" PATH="/pages/novoUsuario/tipoUsuario.jsp"
+    TARGET="rules:#pages#novoUsuario#tipoUsuario.jsp"
+    TITLE="toEscolheUsuario" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#utilitario#lembrarSenha.jsp"
+  PATH="/pages/utilitario/lembrarSenha.jsp" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#utilitario#lembrarSenha.jsp:0"
+   NAME="item" PATH="/pages/utilitario/lembrarSenha.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toLogin::#pages#usuario#login.jsp"
+    NAME="output" PATH="/pages/usuario/login.jsp"
+    TARGET="rules:#pages#usuario#login.jsp" TITLE="toLogin" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#alterarSenha.jsp"
+  PATH="/pages/cliente/alterarSenha.jsp" SHAPE="96,1265,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#alterarSenha.jsp:0" NAME="item"
+   PATH="/pages/cliente/alterarSenha.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="::#pages#cliente#homeCliente.jsp"
+    NAME="output" PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="[any]" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#consultarPizzaria.jsp"
+  PATH="/pages/cliente/consultarPizzaria.jsp" SHAPE="96,1601,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#consultarPizzaria.jsp:0"
+   NAME="item" PATH="/pages/cliente/consultarPizzaria.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeCliente::#pages#cliente#homeCliente.jsp" NAME="output"
+    PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="toHomeCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#cliente#consultarPizzaria.jsp:1"
+   NAME="item1" PATH="/pages/cliente/consultarPizzaria.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="::#pages#cliente#pedido.jsp" NAME="output"
+    PATH="/pages/cliente/pedido.jsp"
+    TARGET="rules:#pages#cliente#pedido.jsp" TITLE="[any]" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#novoUsuario#tipoUsuario.jsp"
+  PATH="/pages/novoUsuario/tipoUsuario.jsp" SHAPE="32,129,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#novoUsuario#tipoUsuario.jsp:0"
+   NAME="item" PATH="/pages/novoUsuario/tipoUsuario.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toLogin::#pages#usuario#login.jsp"
+    NAME="output" PATH="/pages/usuario/login.jsp"
+    TARGET="rules:#pages#usuario#login.jsp" TITLE="toLogin" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#cadastraPizzas.jsp"
+  PATH="/pages/empresa/cadastraPizzas.jsp" SHAPE="856,1912,50,41"
+  model-entity="JSFProcessGroup" persistent="true">
+  <PROCESS-ITEM ID="rules:#pages#empresa#cadastraPizzas.jsp:0"
+   NAME="item" PATH="/pages/empresa/cadastraPizzas.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#empresa#cadastraPizzas.jsp:1"
+   NAME="item1" PATH="/pages/empresa/cadastraPizzas.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="::#pages#empresa#consultaPizzas.jsp"
+    NAME="output" PATH="/pages/empresa/consultaPizzas.jsp"
+    TARGET="rules:#pages#empresa#consultaPizzas.jsp" TITLE="[any]" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#realizaPedido.jsp"
+  PATH="/pages/cliente/realizaPedido.jsp" SHAPE="96,1697,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#realizaPedido.jsp:0"
+   NAME="item" PATH="/pages/cliente/realizaPedido.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="::#pages#cliente#homeCliente.jsp"
+    NAME="output" PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="[any]" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#cliente#realizaPedido.jsp:1"
+   NAME="item1" PATH="/pages/cliente/realizaPedido.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="::#pages#cliente#pedido.jsp" NAME="output"
+    PATH="/pages/cliente/pedido.jsp"
+    TARGET="rules:#pages#cliente#pedido.jsp" TITLE="[any]" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#pedido.jsp"
+  PATH="/pages/cliente/pedido.jsp" SHAPE="64,1808,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#pedido.jsp:0" NAME="item"
+   PATH="/pages/cliente/pedido.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPizza::#pages#cliente#consultaPizzas.jsp"
+    NAME="output" PATH="/pages/cliente/consultaPizzas.jsp"
+    TARGET="rules:#pages#cliente#consultaPizzas.jsp"
+    TITLE="toConsultaPizza" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPizzaria::#pages#cliente#consultarPizzaria.jsp"
+    NAME="output1" PATH="/pages/cliente/consultarPizzaria.jsp"
+    TARGET="rules:#pages#cliente#consultarPizzaria.jsp"
+    TITLE="toConsultaPizzaria" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#consultaPizzas.jsp"
+  PATH="/pages/empresa/consultaPizzas.jsp" SHAPE="952,1744,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#consultaPizzas.jsp:0"
+   NAME="item" PATH="/pages/empresa/consultaPizzas.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toCadastraPizzas::#pages#empresa#cadastraPizzas.jsp"
+    NAME="output1" PATH="/pages/empresa/cadastraPizzas.jsp"
+    TARGET="rules:#pages#empresa#cadastraPizzas.jsp"
+    TITLE="toCadastraPizzas" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#atualizaPizza.jsp"
+  PATH="/pages/empresa/atualizaPizza.jsp" SHAPE="1006,1832,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#atualizaPizza.jsp:0"
+   NAME="item" PATH="/pages/empresa/atualizaPizza.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPizzas::#pages#empresa#consultaPizzas.jsp"
+    NAME="output" PATH="/pages/empresa/consultaPizzas.jsp"
+    TARGET="rules:#pages#empresa#consultaPizzas.jsp"
+    TITLE="toConsultaPizzas" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#cadastraIngredientes.jsp"
+  PATH="/pages/empresa/cadastraIngredientes.jsp" SHAPE="448,2305,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#cadastraIngredientes.jsp:0"
+   NAME="item" PATH="/pages/empresa/cadastraIngredientes.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="::#pages#empresa#homeEmpresa.jsp"
+    NAME="output" PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="[any]" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#alteraPedido.jsp"
+  PATH="/pages/cliente/alteraPedido.jsp" SHAPE="1232,2353,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#alteraPedido.jsp:0" NAME="item"
+   PATH="/pages/cliente/alteraPedido.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPizza::#pages#cliente#consultaPizzas.jsp"
+    NAME="output" PATH="/pages/cliente/consultaPizzas.jsp"
+    TARGET="rules:#pages#cliente#consultaPizzas.jsp"
+    TITLE="toConsultaPizza" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPedido::#pages#cliente#consultaPedido.jsp"
+    NAME="output1" PATH="/pages/cliente/consultaPedido.jsp"
+    TARGET="rules:#pages#cliente#consultaPedido.jsp"
+    TITLE="toConsultaPedido" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#consultaPedido.jsp"
+  PATH="/pages/cliente/consultaPedido.jsp" SHAPE="352,705,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#consultaPedido.jsp:0"
+   NAME="item" PATH="/pages/cliente/consultaPedido.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeCliente::#pages#cliente#homeCliente.jsp" NAME="output"
+    PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="toHomeCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#consultaPizzas.jsp"
+  PATH="/pages/cliente/consultaPizzas.jsp" SHAPE="448,689,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#consultaPizzas.jsp:0"
+   NAME="item" PATH="/pages/cliente/consultaPizzas.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toAlteraPedido::#pages#cliente#alteraPedido.jsp" NAME="output"
+    PATH="/pages/cliente/alteraPedido.jsp"
+    TARGET="rules:#pages#cliente#alteraPedido.jsp"
+    TITLE="toAlteraPedido" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#pedido.jsp"
+  PATH="/pages/empresa/pedido.jsp" SHAPE="656,705,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#pedido.jsp:0" NAME="item"
+   PATH="/pages/empresa/pedido.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPedido::#pages#empresa#consultaPedido.jsp"
+    NAME="output" PATH="/pages/empresa/consultaPedido.jsp"
+    TARGET="rules:#pages#empresa#consultaPedido.jsp"
+    TITLE="toConsultaPedido" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#consultaPedido.jsp"
+  PATH="/pages/empresa/consultaPedido.jsp" SHAPE="992,2897,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#consultaPedido.jsp:0"
+   NAME="item" PATH="/pages/empresa/consultaPedido.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#usuario#paginaInicial.jsp"
+  PATH="/pages/usuario/paginaInicial.jsp" SHAPE="864,689,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#usuario#paginaInicial.jsp:0"
+   NAME="item" PATH="/pages/usuario/paginaInicial.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toLogin::#pages#usuario#login.jsp"
+    NAME="output" PATH="/pages/usuario/login.jsp"
+    TARGET="rules:#pages#usuario#login.jsp" TITLE="toLogin" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#usuario#login.jsp"
+  PATH="/pages/usuario/login.jsp" SHAPE="1072,705,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#administrador#removeEmpresa.jsp"
+  PATH="/pages/administrador/removeEmpresa.jsp" SHAPE="240,913,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#administrador#removeEmpresa.jsp:0"
+   NAME="item" PATH="/pages/administrador/removeEmpresa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeAdministrador::#pages#administrador#homeAdministrador.jsp"
+    NAME="output" PATH="/pages/administrador/homeAdministrador.jsp"
+    TARGET="rules:#pages#administrador#homeAdministrador.jsp"
+    TITLE="toHomeAdministrador" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#administrador#removeCliente.jsp"
+  PATH="/pages/administrador/removeCliente.jsp" SHAPE="240,913,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#administrador#removeCliente.jsp:0"
+   NAME="item" PATH="/pages/administrador/removeCliente.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeAdministrador::#pages#administrador#homeAdministrador.jsp"
+    NAME="output" PATH="/pages/administrador/homeAdministrador.jsp"
+    TARGET="rules:#pages#administrador#homeAdministrador.jsp"
+    TITLE="toHomeAdministrador" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#gerarRelatorio.jsp"
+  PATH="/pages/empresa/gerarRelatorio.jsp" SHAPE="448,2897,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#gerarRelatorio.jsp:0"
+   NAME="item" PATH="/pages/empresa/gerarRelatorio.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#faleConoscoCliente.jsp"
+  PATH="/pages/cliente/faleConoscoCliente.jsp" SHAPE="96,465,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#faleConoscoCliente.jsp:0"
+   NAME="item" PATH="/pages/cliente/faleConoscoCliente.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeCliente::#pages#cliente#homeCliente.jsp" NAME="output"
+    PATH="/pages/cliente/homeCliente.jsp"
+    TARGET="rules:#pages#cliente#homeCliente.jsp" TITLE="toHomeCliente" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#empresa#faleConoscoEmpresa.jsp"
+  PATH="/pages/empresa/faleConoscoEmpresa.jsp" SHAPE="448,2961,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#empresa#faleConoscoEmpresa.jsp:0"
+   NAME="item" PATH="/pages/empresa/faleConoscoEmpresa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toHomeEmpresa::#pages#empresa#homeEmpresa.jsp" NAME="output"
+    PATH="/pages/empresa/homeEmpresa.jsp"
+    TARGET="rules:#pages#empresa#homeEmpresa.jsp" TITLE="toHomeEmpresa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#pizzaria.jsp"
+  PATH="/pages/cliente/pizzaria.jsp" SHAPE="240,945,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#pizzaria.jsp:0" NAME="item"
+   PATH="/pages/cliente/pizzaria.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPizzaria::#pages#cliente#consultarPizzaria.jsp"
+    NAME="output" PATH="/pages/cliente/consultarPizzaria.jsp"
+    TARGET="rules:#pages#cliente#consultarPizzaria.jsp"
+    TITLE="toConsultaPizzaria" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cliente#pedidoConsulta.jsp"
+  PATH="/pages/cliente/pedidoConsulta.jsp" SHAPE="240,945,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cliente#pedidoConsulta.jsp:0"
+   NAME="item" PATH="/pages/cliente/pedidoConsulta.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toConsultaPedido::#pages#cliente#consultaPedido.jsp"
+    NAME="output" PATH="/pages/cliente/consultaPedido.jsp"
+    TARGET="rules:#pages#cliente#consultaPedido.jsp"
+    TITLE="toConsultaPedido" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+</PROCESS>

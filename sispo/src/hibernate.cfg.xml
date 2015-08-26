@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost/sispo</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.connection.password">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+  <property name="hibernate.format_sql">true</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.hbm2ddl.auto">none</property>
+  <property name="hibernate.c3p0.acquire_increment">1</property>
+  <property name="hibernate.c3p0.idle_test_period">100</property>
+  <property name="hibernate.c3p0.max_size">10</property>
+  <property name="hibernate.c3p0.max_statements">0</property>
+  <property name="hibernate.c3p0.min_size">5</property>
+  <property name="hibernate.c3p0.timeout">100</property>
+  <mapping class="br.com.sispo.model.entity.Usuario"/>
+  <mapping class="br.com.sispo.model.entity.TipoUsuario"/>
+  <mapping class="br.com.sispo.model.entity.Situacao"/>
+  <mapping class="br.com.sispo.model.entity.Status"/>
+  <mapping class="br.com.sispo.model.entity.Cliente"/>
+  <mapping class="br.com.sispo.model.entity.Endereco"/>
+  <mapping class="br.com.sispo.model.entity.Uf"/>
+  <mapping class="br.com.sispo.model.entity.Empresa"/>
+  <mapping class="br.com.sispo.model.entity.Pedido"/>
+  <mapping class="br.com.sispo.model.entity.Pizza"/>
+  <mapping class="br.com.sispo.model.entity.Ingrediente"/>
+  <mapping class="br.com.sispo.model.entity.TipoIngrediente"/>
+  <mapping class="br.com.sispo.model.entity.IngredienteDePizza"/>
+  <mapping class="br.com.sispo.model.entity.PedidoDePizza"/>
+ </session-factory>
+</hibernate-configuration>

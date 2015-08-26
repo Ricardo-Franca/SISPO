@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf12480543727031" configfile="/sispo/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="pages/index" x="122" y="178" id="pf13309040049730" referenceLink="//@navigationRule.26/@navigationCase.0/@toViewId|" path="/pages/index.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/homeCliente" x="770" y="2609" id="pf13309040049734" referenceLink="//@navigationRule.27/@navigationCase.0/@toViewId|" outlinks="pf13309040049738 pf13309040049739 pf13321736469521 pf13388498572340 pf13392495928880" inlinks="pf133090400497410 pf133090400497411 pf13309893953120 pf13309952467400 pf13321736469522 pf13338977327904 pf13388498572341 pf13392495928881" path="/pages/cliente/homeCliente.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/atualizaCliente" x="554" y="1387" id="pf133090400497414" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf133090400497410" path="/pages/cliente/atualizaCliente.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/pizzas" x="554" y="1771" id="pf133090400497415" referenceLink="//@navigationRule.4/@fromViewId|" outlinks="pf133090400497411" path="/pages/cliente/pizzas.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/pedido/fazPedido" x="122" y="1391" id="pf133090400497416" referenceLink="//@navigationRule.6/@fromViewId|" path="/pages/pedido/fazPedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/administrador/homeAdministrador" x="338" y="2472" id="pf133090400497417" referenceLink="//@navigationRule.7/@navigationCase.0/@toViewId|" outlinks="pf13388498572352 pf13388498572353" inlinks="pf13388498572354 pf13388498572355" path="/pages/administrador/homeAdministrador.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/removeCliente" x="122" y="1836" id="pf133090400497424" referenceLink="//@navigationRule.8/@fromViewId|" path="/pages/cliente/removeCliente.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/removeEmpresa" x="122" y="6058" id="pf133090400497425" referenceLink="//@navigationRule.10/@fromViewId|" path="/pages/empresa/removeEmpresa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/pedido/removePedido" x="122" y="6442" id="pf133090400497426" referenceLink="//@navigationRule.12/@fromViewId|" path="/pages/pedido/removePedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/homeEmpresa" x="770" y="5248" id="pf133090400497527" referenceLink="//@navigationRule.33/@navigationCase.0/@toViewId|" outlinks="pf13309893953131 pf13309975408163 pf13323759521920 pf13347073567350 pf13388498572356 pf133885155177431 pf13392503910083" inlinks="pf133090400497529 pf13309896608235 pf13309975408164 pf13323761042802 pf13347073567351 pf13347082912318 pf13388498572358 pf133885155177432 pf13392503910084" path="/pages/empresa/homeEmpresa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/atualizaEmpresa" x="554" y="3712" id="pf133090400497530" referenceLink="//@navigationRule.9/@fromViewId|" outlinks="pf133090400497529" path="/pages/empresa/atualizaEmpresa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/novoUsuario/cadastraPizzaria" x="122" y="562" id="pf133090400497531" referenceLink="//@navigationRule.11/@fromViewId|" outlinks="pf133884985723510" path="/pages/novoUsuario/cadastraPizzaria.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/novoUsuario/cadastraCliente" x="122" y="946" id="pf133090400497532" referenceLink="//@navigationRule.12/@fromViewId|" outlinks="pf133884985723511" path="/pages/novoUsuario/cadastraCliente.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/atualizaCadastroCliente" x="554" y="2155" id="pf133090400497533" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" outlinks="pf13309893953120" inlinks="pf13309040049738" path="/pages/cliente/atualizaCadastroCliente.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/utilitario/lembrarSenha" x="338" y="370" id="pf133090400497534" referenceLink="//@navigationRule.13/@fromViewId|" outlinks="pf133884985723612" path="/pages/utilitario/lembrarSenha.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/alterarSenha" x="554" y="2539" id="pf133090400497535" referenceLink="//@navigationRule.14/@fromViewId|" outlinks="pf13309952467400" inlinks="pf13309040049739" path="/pages/cliente/alterarSenha.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/atualizaCadastroEmpresa" x="554" y="4096" id="pf13309893953132" referenceLink="//@navigationRule.8/@navigationCase.0/@toViewId|" outlinks="pf13309896608235" inlinks="pf13309893953131" path="/pages/empresa/atualizaCadastroEmpresa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/alterarSenha" x="554" y="4480" id="pf13309975408165" referenceLink="//@navigationRule.10/@fromViewId|" outlinks="pf13309975408164" inlinks="pf13309975408163" path="/pages/empresa/alterarSenha.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/consultarPizzaria" x="546" y="2892" id="pf13321736469543" referenceLink="//@navigationRule.21/@navigationCase.1/@toViewId|" outlinks="pf13321736469522 pf13338936417170" inlinks="pf13321736469521 pf133884985723613" path="/pages/cliente/consultarPizzaria.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/novoUsuario/tipoUsuario" x="338" y="754" id="pf13321736469544" referenceLink="//@navigationRule.16/@fromViewId|" outlinks="pf133884985723614" inlinks="pf133884985723510 pf133884985723511" path="/pages/novoUsuario/tipoUsuario.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/cadastraPizzas" x="554" y="5632" id="pf13323759521941" referenceLink="//@navigationRule.24/@fromViewId|" outlinks="pf13323761042802 pf13347073567362" inlinks="pf13323759521920 pf13347073567363" path="/pages/empresa/cadastraPizzas.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/pedido" x="338" y="2923" id="pf13338936417182" referenceLink="//@navigationRule.21/@fromViewId|" outlinks="pf133884985723615 pf133884985723613" inlinks="pf13338936417170 pf13338977327916" path="/pages/cliente/pedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cliente/realizaPedido" x="122" y="3125" id="pf13338977327917" referenceLink="//@navigationRule.20/@fromViewId|" outlinks="pf13338977327904 pf13338977327916" path="/pages/cliente/realizaPedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/consultaPizzas" x="338" y="5674" id="pf13347073567364" referenceLink="//@navigationRule.24/@navigationCase.0/@toViewId|" outlinks="pf13347073567351 pf13347073567363" inlinks="pf13347073567350 pf13347073567375 pf13347073567362" path="/pages/empresa/consultaPizzas.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/atualizaPizza" x="122" y="5674" id="pf13347073567376" referenceLink="//@navigationRule.23/@fromViewId|" outlinks="pf13347073567375" path="/pages/empresa/atualizaPizza.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/empresa/cadastraIngredientes" x="554" y="4864" id="pf13347082912329" referenceLink="//@navigationRule.25/@fromViewId|" outlinks="pf13347082912318" path="/pages/empresa/cadastraIngredientes.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toConsultaPedido" x="554" y="3328" id="pf133884985723716" referenceLink="//@navigationRule.27/@fromViewId|" outlinks="pf13388498572341" inlinks="pf13388498572340 pf133884985723717" path="/pages/cliente/consultaPedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/administrador/removeCliente" x="122" y="2280" id="pf133884985723718" referenceLink="//@navigationRule.6/@fromViewId|" outlinks="pf13388498572354" inlinks="pf13388498572352" path="/pages/administrador/removeCliente.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/administrador/removeEmpresa" x="122" y="2664" id="pf133884985723719" referenceLink="//@navigationRule.7/@fromViewId|" outlinks="pf13388498572355" inlinks="pf13388498572353" path="/pages/administrador/removeEmpresa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toConsultaPedido" x="554" y="5248" id="pf133884985723820" referenceLink="//@navigationRule.30/@fromViewId|" outlinks="pf13388498572358" inlinks="pf13388498572356 pf133884985723821" path="/pages/empresa/consultaPedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/usuario/login" x="554" y="754" id="pf133884985723822" referenceLink="//@navigationRule.31/@navigationCase.0/@toViewId|" inlinks="pf133884985723612 pf133884985723614 pf133884985723823" path="/pages/usuario/login.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toConsultaPizzas" x="554" y="6058" id="pf133884985723824" referenceLink="//@navigationRule.28/@fromViewId|" outlinks="pf133884985723825" inlinks="pf133884985723615 pf133884985723826" path="/pages/cliente/consultaPizzas.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toAlteraPedido" x="338" y="6058" id="pf133884985723827" referenceLink="//@navigationRule.28/@navigationCase.0/@toViewId|" outlinks="pf133884985723826 pf133884985723717" inlinks="pf133884985723825" path="/pages/cliente/alteraPedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toConsultaPedido" x="338" y="5248" id="pf133884985723828" referenceLink="//@navigationRule.29/@fromViewId|" outlinks="pf133884985723821" path="/pages/empresa/pedido.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toLogin" x="338" y="1138" id="pf133884985723829" referenceLink="//@navigationRule.31/@fromViewId|" outlinks="pf133884985723823" path="/pages/usuario/paginaInicial.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toGerarRelatorio" x="927" y="5106" id="pf133884985723830" referenceLink="//@navigationRule.33/@fromViewId|" outlinks="pf133885155177432" inlinks="pf133885155177431" path="/pages/empresa/gerarRelatorio.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toFaleConoscoCliente" x="876" y="2923" id="pf13392495928912" outlinks="pf13392495928881" inlinks="pf13392495928880" path="/pages/cliente/faleConoscoCliente.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="toFaleConoscoEmpresa" x="852" y="5484" id="pf13392503910095" outlinks="pf13392503910084" inlinks="pf13392503910083" path="/pages/empresa/faleConoscoEmpresa.jsp"/>
+  <links id="pf133090400497410" target="pf13309040049734" source="pf133090400497414" outcome="toHomeCliente"/>
+  <links id="pf133090400497411" target="pf13309040049734" source="pf133090400497415" outcome="toHomeCliente"/>
+  <links id="pf133090400497529" target="pf133090400497527" source="pf133090400497530" outcome="toHomeEmpresa"/>
+  <links id="pf13309040049738" target="pf133090400497533" source="pf13309040049734" outcome="toAtualizaCadastroCliente"/>
+  <links id="pf13309040049739" target="pf133090400497535" source="pf13309040049734" outcome="toAlterarSenha"/>
+  <links id="pf13309893953120" target="pf13309040049734" source="pf133090400497533" outcome="toHomeCliente"/>
+  <links id="pf13309893953131" target="pf13309893953132" source="pf133090400497527" outcome="toAtualizaCadastroEmpresa"/>
+  <links id="pf13309896608235" target="pf133090400497527" source="pf13309893953132" outcome="toHomeEmpresa"/>
+  <links id="pf13309952467400" target="pf13309040049734" source="pf133090400497535"/>
+  <links id="pf13309975408164" target="pf133090400497527" source="pf13309975408165" outcome="toHomeEmpresa"/>
+  <links id="pf13309975408163" target="pf13309975408165" source="pf133090400497527" outcome="toAlterarSenha"/>
+  <links id="pf13321736469521" target="pf13321736469543" source="pf13309040049734" outcome="toConsultarPizzaria"/>
+  <links id="pf13321736469522" target="pf13309040049734" source="pf13321736469543" outcome="toHomeCliente"/>
+  <links id="pf13323759521920" target="pf13323759521941" source="pf133090400497527" outcome="toCadastraPizzas"/>
+  <links id="pf13323761042802" target="pf133090400497527" source="pf13323759521941" outcome="toHomeEmpresa"/>
+  <links id="pf13338936417170" target="pf13338936417182" source="pf13321736469543"/>
+  <links id="pf13338977327904" target="pf13309040049734" source="pf13338977327917"/>
+  <links id="pf13338977327916" target="pf13338936417182" source="pf13338977327917"/>
+  <links id="pf13347073567350" target="pf13347073567364" source="pf133090400497527" outcome="toConsultaPizzas"/>
+  <links id="pf13347073567351" target="pf133090400497527" source="pf13347073567364" outcome="toHomeEmpresa"/>
+  <links id="pf13347073567375" target="pf13347073567364" source="pf13347073567376" outcome="toConsultaPizzas"/>
+  <links id="pf13347073567363" target="pf13323759521941" source="pf13347073567364" outcome="toCadastraPizzas"/>
+  <links id="pf13347073567362" target="pf13347073567364" source="pf13323759521941"/>
+  <links id="pf13347082912318" target="pf133090400497527" source="pf13347082912329"/>
+  <links id="pf13388498572340" target="pf133884985723716" source="pf13309040049734" outcome="toConsultaPedido"/>
+  <links id="pf13388498572352" target="pf133884985723718" source="pf133090400497417" outcome="toRemoveCliente"/>
+  <links id="pf13388498572353" target="pf133884985723719" source="pf133090400497417" outcome="toRemoveEmpresa"/>
+  <links id="pf13388498572354" target="pf133090400497417" source="pf133884985723718" outcome="toHomeAdministrador"/>
+  <links id="pf13388498572355" target="pf133090400497417" source="pf133884985723719" outcome="toHomeAdministrador"/>
+  <links id="pf13388498572356" target="pf133884985723820" source="pf133090400497527" outcome="toConsultaPedido"/>
+  <links id="pf133884985723510" target="pf13321736469544" source="pf133090400497531" outcome="toEscolheUsuario"/>
+  <links id="pf133884985723511" target="pf13321736469544" source="pf133090400497532" outcome="toEscolheUsuario"/>
+  <links id="pf133884985723612" target="pf133884985723822" source="pf133090400497534" outcome="toLogin"/>
+  <links id="pf133884985723614" target="pf133884985723822" source="pf13321736469544" outcome="toLogin"/>
+  <links id="pf133884985723615" target="pf133884985723824" source="pf13338936417182" outcome="toConsultaPizza"/>
+  <links id="pf133884985723613" target="pf13321736469543" source="pf13338936417182" outcome="toConsultaPizzaria"/>
+  <links id="pf133884985723826" target="pf133884985723824" source="pf133884985723827" outcome="toConsultaPizza"/>
+  <links id="pf133884985723717" target="pf133884985723716" source="pf133884985723827" outcome="toConsultaPedido"/>
+  <links id="pf13388498572341" target="pf13309040049734" source="pf133884985723716" outcome="toHomeCliente"/>
+  <links id="pf133884985723825" target="pf133884985723827" source="pf133884985723824" outcome="toAlteraPedido"/>
+  <links id="pf133884985723821" target="pf133884985723820" source="pf133884985723828" outcome="toConsultaPedido"/>
+  <links id="pf13388498572358" target="pf133090400497527" source="pf133884985723820" outcome="toHomeEmpresa"/>
+  <links id="pf133884985723823" target="pf133884985723822" source="pf133884985723829" outcome="toLogin"/>
+  <links id="pf133885155177431" target="pf133884985723830" source="pf133090400497527" outcome="toGerarRelatorio"/>
+  <links id="pf133885155177432" target="pf133090400497527" source="pf133884985723830" outcome="toHomeEmpresa"/>
+  <links id="pf13392495928881" target="pf13309040049734" source="pf13392495928912" outcome="toHomeCliente"/>
+  <links id="pf13392495928880" target="pf13392495928912" source="pf13309040049734" outcome="toFaleConoscoCliente"/>
+  <links id="pf13392503910084" target="pf133090400497527" source="pf13392503910095" outcome="toHomeEmpresa"/>
+  <links id="pf13392503910083" target="pf13392503910095" source="pf133090400497527" outcome="toFaleConoscoEmpresa"/>
+</pageflow:Pageflow>
